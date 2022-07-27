@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*------------------ Input--------------------*/
+.card-contanier-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-input {
+  margin: 1rem;
+}
+.card-input img {
+  position: relative;
+  right: -150px;
+  top: -80px;
+  width: 35%;
+}
+.card-input input {
+  height: 30px;
+  width: 350px;
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: none;
+  box-shadow: 1px 3px 10px rgb(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  text-align: center;
+}
+.card-input button {
+  position: relative;
+  right: 55px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background-color: rgb(77, 255, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.card-input button:hover {
+  transform: translateY(-12%);
+}
+
+.card-input input:hover {
+  transform: translateY(-5%);
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+}
+
+i {
+  font-size: 25px;
+}
+.card-input h2 {
+  font-size: 70px;
+}
+.card-input h4 {
+  font-size: 30px;
+}
+
+.card-input h1 {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/*------------------ --------------------*/
+
+/*------------------ Character Item--------------------*/
+
+.card-container-item {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+strong {
+  color: red;
+  font-size: 30px;
+}
+
+.card-item {
+  margin: 1rem;
+  border: 1px #404040 solid;
+  background-color: aquamarine;
+  width: 400px;
+  border: none;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+}
+.card-item img {
+  width: 50%;
+  cursor: pointer;
+  max-width: 50%;
+  transition: all 400ms ease;
+}
+.card-item img:hover {
+  transform: translateY(-5%);
+  transition: all 400ms ease;
+}
+.pokedex-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pokedex {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.pokedex-info p {
+  font-size: 25px;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 900;
+}
+
+.pokedex-info input {
+  height: 30px;
+  width: 350px;
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: none;
+  box-shadow: 1px 3px 10px rgb(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  text-align: center;
+}
+.pokedex-info button {
+  position: relative;
+  right: 55px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background-color: rgb(77, 255, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+.pokedex-info input:hover {
+  transform: translateY(-5%);
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+}
+.pokedex-info button:hover {
+  transform: translateY(-12%);
+}
+.pokedex-info select {
+  display: flex;
+  position: relative;
+  left: 730px;
+  height: 40px;
+  width: 350px;
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: none;
+  box-shadow: 1px 3px 10px rgb(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  align-items: center;
+  text-align: center;
+}
+.pokedex-info select:hover {
+  transform: translateY(-5%);
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+}
+.card-item h1 {
+  font-size: 50px;
+  color: white;
+}
+.card-item h2 {
+  text-align: left;
+  padding: 1rem;
+}
+
+/*------------------ --------------------*/
+
+/*------------------ Pokemon Detail--------------------*/
+.card-container-detail {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container-detail h1 {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card-detail-info {
+  position: relative;
+  top: 350px;
+  margin: 1rem;
+  background-color: rgba(77, 255, 0, 0.533);
+  width: 800px;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.card-detail ul {
+  list-style: none;
+}
+
+.card-info {
+  display: flex;
+  position: relative;
+  left: 280px;
+  top: 350px;
+}
+
+.ability {
+  display: flex;
+  background-color: green;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100px;
+  border-radius: 10px;
+}
+.types {
+  display: flex;
+  background-color: green;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100px;
+  border-radius: 10px;
+}
+.card-detail img {
+  display: flex;
+  position: absolute;
+  top: -350px;
+  width: 400px;
+}
